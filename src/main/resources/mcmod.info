@@ -1,15 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "aainfo",
+  "name": "Actually Advanced Info",
+  "description": "Adds more advanced info to your tooltip",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/Caedis/ActuallyAdvancedInfo",
   "updateUrl": "",
-  "authorList": ["CleanroomMC"],
-  "credits": "Authors of this project",
-  "logoFile": "",
+  "authorList": ["Caedis"],
+  "credits": "",
   "screenshots": [],
   "dependencies": []
 }
