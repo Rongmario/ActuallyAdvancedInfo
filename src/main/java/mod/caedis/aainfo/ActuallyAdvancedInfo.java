@@ -1,6 +1,6 @@
-package com.cleanroommc.nbtviewer;
+package mod.caedis.aainfo;
 
-import com.cleanroommc.nbtviewer.proxy.CommonProxy;
+import mod.caedis.aainfo.proxy.CommonProxy;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -12,15 +12,15 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = NBTViewer.MODID, name = NBTViewer.NAME, version = NBTViewer.VERSION)
-public class NBTViewer {
-    public static final String MODID = "nbtviewer";
-    public static final String NAME = "NBTViewer";
+@Mod(modid = ActuallyAdvancedInfo.MODID, name = ActuallyAdvancedInfo.NAME, version = ActuallyAdvancedInfo.VERSION)
+public class ActuallyAdvancedInfo {
+    public static final String MODID = "aainfo";
+    public static final String NAME = "Actually Advanced Info";
     public static final String VERSION = "@VERSION@";
 
     public static final Logger LOGGER = LogManager.getLogger(NAME);
 
-    @SidedProxy(clientSide = "com.cleanroommc.nbtviewer.proxy.ClientProxy", serverSide = "com.cleanroommc.nbtviewer.proxy.CommonProxy")
+    @SidedProxy(clientSide = "mod.caedis.aainfo.proxy.ClientProxy", serverSide = "mod.caedis.aainfo.proxy.CommonProxy")
     public static CommonProxy proxy;
 
     @Mod.EventHandler

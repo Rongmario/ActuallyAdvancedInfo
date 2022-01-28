@@ -1,6 +1,6 @@
-package com.cleanroommc.nbtviewer.proxy;
+package mod.caedis.aainfo.proxy;
 
-import com.cleanroommc.nbtviewer.events.ClientEvents;
+import mod.caedis.aainfo.events.ClientEvents;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
 public class ClientProxy extends CommonProxy {

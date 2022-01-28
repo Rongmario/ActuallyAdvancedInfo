@@ -1,4 +1,4 @@
-package com.cleanroommc.nbtviewer.misc;
+package mod.caedis.aainfo.misc;
 
 public interface IDisableableItem {
 

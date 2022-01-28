@@ -1,14 +1,13 @@
-package com.cleanroommc.nbtviewer.utils;
+package mod.caedis.aainfo.utils;
 
-import com.cleanroommc.nbtviewer.NBTViewer;
-import com.cleanroommc.nbtviewer.misc.IDisableableItem;
+import mod.caedis.aainfo.ActuallyAdvancedInfo;
+import mod.caedis.aainfo.misc.IDisableableItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
 import net.minecraftforge.items.IItemHandler;
 
 import java.util.Collection;
-import java.util.List;
 
 
 // originally from ActuallyAdditions
@@ -21,7 +20,7 @@ public final class StackUtils {
      */
     public static boolean isValid(ItemStack stack) {
         if (stack == null){
-            NBTViewer.LOGGER.warn("Why is this null??? - {}", stack);
+            ActuallyAdvancedInfo.LOGGER.warn("Why is this null??? - {}", stack);
             return false;
         }
         Item i = stack.getItem();

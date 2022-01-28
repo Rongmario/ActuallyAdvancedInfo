@@ -1,7 +1,7 @@
-package com.cleanroommc.nbtviewer.events;
+package mod.caedis.aainfo.events;
 
-import com.cleanroommc.nbtviewer.registry.ModConfig;
-import com.cleanroommc.nbtviewer.utils.StackUtils;
+import mod.caedis.aainfo.registry.ModConfig;
+import mod.caedis.aainfo.utils.StackUtils;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;

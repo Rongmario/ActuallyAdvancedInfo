@@ -1,4 +1,4 @@
-package com.cleanroommc.nbtviewer.proxy;
+package mod.caedis.aainfo.proxy;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;

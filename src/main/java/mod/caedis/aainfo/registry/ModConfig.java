@@ -1,13 +1,13 @@
-package com.cleanroommc.nbtviewer.registry;
+package mod.caedis.aainfo.registry;
 
-import com.cleanroommc.nbtviewer.NBTViewer;
+import mod.caedis.aainfo.ActuallyAdvancedInfo;
 import net.minecraftforge.common.config.Config;
 import net.minecraftforge.common.config.ConfigManager;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Config(modid = NBTViewer.MODID, name = NBTViewer.NAME, category = NBTViewer.MODID)
+@Config(modid = ActuallyAdvancedInfo.MODID, name = ActuallyAdvancedInfo.NAME, category = ActuallyAdvancedInfo.MODID)
 public class ModConfig
 {
     @Config.Comment("Configure what is in the tooltip")
@@ -35,8 +35,8 @@ public class ModConfig
         @SubscribeEvent
         @SuppressWarnings("unused")
         public static void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent event) {
-            if (event.getModID().equals(NBTViewer.MODID)) {
-                ConfigManager.sync(NBTViewer.MODID, Config.Type.INSTANCE);
+            if (event.getModID().equals(ActuallyAdvancedInfo.MODID)) {
+                ConfigManager.sync(ActuallyAdvancedInfo.MODID, Config.Type.INSTANCE);
             }
         }
     }
